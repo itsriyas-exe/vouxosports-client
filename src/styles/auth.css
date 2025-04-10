@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("../assets/bg-all-sports-1920-v2.png") no-repeat center center fixed;
+  border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.263),#000);
+  background-size: cover;
+  color: white;
+}
+
+.auth-container {
+  min-height: 100vh;
+
+  background: url("../assets/bg-all-sports-1920-v2.png") no-repeat center center fixed;
+  border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.263),#000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-image {
+  max-width: 60%;
+  height: auto;
+}
+.txthead{
+  font-family: "Kirang Haerang", system-ui;
+  color: rgb(193, 193, 15);
+}
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 20px;
+  }
+
+  .auth-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/*Input design */ 
+.formsection input {
+  color: rgb(113, 113, 113);
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 390px;
+}
+
+.formsection input:active {
+  box-shadow: 2px 2px 15px #8707ff33 inset;
+}

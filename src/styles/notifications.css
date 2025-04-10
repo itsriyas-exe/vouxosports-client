@@ -1,0 +1,47 @@
+.notifications-container {
+    min-height: 100vh;
+    background-color: #ffffff; /* Dark background */
+  }
+  
+  .notifications-header {
+    margin-bottom: 20px;
+  }
+  
+  .notifications-list {
+    background: #ffffff; /* Slightly lighter background for list */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .notification-item {
+    background: #ececec; /* Notification card background */
+    color: #606060;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .notification-item:hover {
+    transform: scale(1.02);
+    background: #bfbfbf7d;
+  }
+  
+  .btn-danger {
+    font-size: 0.9rem;
+  }
+  #titleH{
+    color: black;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .notifications-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .btn-danger {
+      margin-top: 10px;
+    }
+  }
+  
